@@ -1,0 +1,70 @@
+body{
+	padding: 25px;
+	background-color: rgb(49,79,79);
+}
+
+h1{
+	color: black;
+	text-align: center;
+	vertical-align: top;
+	font-family: 'Lumos Caps Regular', sans-serif;
+	font-size: 50px;
+	border: solid;
+	border-width: .25em;
+
+}
+
+.header{
+	background-image: url("http://www.scholastic.com/teachers/sites/default/files/images/blogs/79/6a00e54faaf86b88330154320a010e970c");
+	background-size: cover;
+	padding: 0px 100px 225px 100px;
+	color: black;
+	text-align: center;
+	vertical-align: top;
+	font-family: 'Lumos Caps Regular', sans-serif;
+	font-size: 50px;
+	border: solid;
+	border-width: .25em;
+
+}
+
+.section{
+	min-height: 10em;
+}
+
+div{
+	font-family: 'Lumos Caps Regular', sans-serif;
+	/*padding-bottom: 0px 0px 25px 0px;*/
+	/*padding: 25px 0px;*/
+	padding: 1em;
+	margin: 1em;
+	border: double black 5px;
+	/*height: 6em;*/
+	/*display: none;*/
+	/*display none hides a box*/
+	font-weight: bold;
+}
+
+.Gryffindor{
+	background-color: #941B08;
+}
+
+.Hufflepuff{
+	background-color: #F1F31C;
+}
+
+.Ravenclaw{
+	background-color: #071A80;
+}
+
+.Slytherin{
+	background-color: #154C07;
+}
+
+
+.content{
+	/*overflow: hidden;*/
+	overflow-y: scroll;
+	/*margin-bottom: 25px;*/
+	height: 8em;
+}
